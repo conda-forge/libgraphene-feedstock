@@ -13,9 +13,9 @@ set ^"MESON_OPTIONS=^
   --buildtype=release ^
   --backend=ninja ^
   -Dgtk_doc=false ^
-  -Dgobject_types=false ^
+  -Dgobject_types=true ^
   -Dinstalled_tests=false ^
-  -Dintrospection=disabled ^
+  -Dintrospection=enabled ^
  ^"
 
 :: configure build using meson
