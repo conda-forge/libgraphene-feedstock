@@ -22,6 +22,8 @@ requirements:
     - meson
     - ninja
     - gobject-introspection
+    # for native build prior to cross build
+    - glib        # [build_platform != target_platform]
   host:
     - glib
   run:
