@@ -26,7 +26,6 @@ requirements:
     # for native build prior to cross build
     - glib        # [build_platform != target_platform]
   host:
-    - gobject-introspection
     - glib
     - zlib
   run:
