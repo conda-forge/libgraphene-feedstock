@@ -21,12 +21,10 @@ fi
 export CPPFLAGS="-D_BSD_SOURCE=1 ${CPPFLAGS}"
 
 meson_config_args=(
-    --buildtype=release
     --backend=ninja
     -Dgtk_doc=false
     -Dgobject_types=true
     -Dinstalled_tests=false
-    -Dlibdir=lib
     -Dintrospection=enabled
     --wrap-mode=nofallback
 )
