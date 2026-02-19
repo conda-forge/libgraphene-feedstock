@@ -27,6 +27,7 @@ requirements:
     - glib        # [build_platform != target_platform]
   host:
     - glib
+    - zlib
   run:
     - libglib
 
