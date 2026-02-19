@@ -19,6 +19,7 @@ requirements:
   build:
     - pkg-config
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
     - meson
     - ninja
     - gobject-introspection
