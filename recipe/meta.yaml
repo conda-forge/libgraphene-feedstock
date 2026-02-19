@@ -12,13 +12,14 @@ source:
     url: https://github.com/ebassi/{{ name }}/archive/refs/tags/{{ version }}.tar.gz
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win and vc<14]
 
 requirements:
   build:
     - pkg-config
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
     - meson
     - ninja
     - gobject-introspection
@@ -26,6 +27,7 @@ requirements:
     - glib        # [build_platform != target_platform]
   host:
     - glib
+    - zlib
   run:
     - libglib
 
