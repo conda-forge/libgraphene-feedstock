@@ -52,11 +52,13 @@ test:
 
 
 about:
-  home: https://github.com/ebassi/graphene
+  home: https://ebassi.github.io/graphene
+  dev_url: https://github.com/ebassi/graphene
+  doc_url: https://ebassi.github.io/graphene/docs
   license: MIT
   license_family: MIT
   license_file: LICENSE.txt
-  summary: "A thin layer of types for graphic libraries"
+  summary: "A thin layer of types for graphic libraries" 
 
 extra:
   recipe-maintainers:
