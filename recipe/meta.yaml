@@ -12,7 +12,7 @@ source:
     url: https://github.com/ebassi/{{ name }}/archive/refs/tags/{{ version }}.tar.gz
 
 build:
-  number: 1
+  number: 2
   skip: true  # [win and vc<14]
 
 requirements:
